@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="pt-br">
+    <head>
+        <title>Petshop Fofuxos</title>
+        <meta charset="UTF-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+        <link rel="stylesheet" href="_css/estilo.css">
+        <script defer src="https://use.fontawesome.com/releases/v5.0.1/js/all.js"></script>
+    </head>
+    <body>
+        <header>
+        <nav class="navbar navbar-warning bg-warning">
+            <a class="navbar-brand" href="#">
+    <img src="_img/newLogo.fw.png" width="60" height="60" alt=""> Fofuxos Petshop
+  </a>
+            <form class="form-inline">
+    <input class="form-control mr-sm-6" type="search" placeholder="Pesquisar produto" aria-label="Search">
+    <button class="btn btn-primary mr-sm-2" type="submit">Buscar</button>
+  </form>
+            <ul class="nav justify-content-end">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Meus Pedidos</a>
+              </li>
+                <li class="nav-item"> <a class="nav-link" href="#">Entrar | Cadastrar-se</a></li>
+                <li><a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i></a></li>
+            </ul>
+        </nav>
+            
+            <!-- MENU DE ESCOLHA DE PRODUTOS-->
+            
+            <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-center">
+                  <ul class="nav">
+      <li class="nav-item dropdown">
+        <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Cachorro
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Alimentação</a>
+            <a class="dropdown-item" href="#">Petiscos</a>
+            <a class="dropdown-item" href="#">Comedouros/Bebedouros</a>
+            <a class="dropdown-item" href="#">Coleiras</a>
+            <a class="dropdown-item" href="#">Casas e Transportes</a>
+        </div>
+      </li>
+        <li class="nav-item dropdown">
+        <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Gato
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Higiene/Beleza</a>
+          <a class="dropdown-item" href="#">Camas</a>
+          <a class="dropdown-item" href="#">Roupas e Acessórios</a>
+            <a class="dropdown-item" href="#">Brinquedos</a>
+                
+        </div>
+      </li>
+        <li class="nav-item dropdown">
+        <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Pássaro
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Alimentação</a>
+          <a class="dropdown-item" href="#">Gaiolas e Viveiros</a>
+          <a class="dropdown-item" href="#">Comedouros/Bebedouros</a>
+        </div>
+      </li>
+     <li class="nav-item dropdown">
+        <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Medicamento
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Saúde Bucal</a>
+          <a class="dropdown-item" href="#">Cardíacos</a>
+          <a class="dropdown-item" href="#">Cicatrizantes</a>
+            <a class="dropdown-item" href="#">Hemorragias</a>
+        </div>
+      </li>
+    <li class="nav-item dropdown">
+        <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Agendar Serviço
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Adestramento</a>
+          <a class="dropdown-item" href="#">Banho e Tosa</a>
+        </div>
+      </li>
+    </ul>
+</nav>
+            
+            <!-- FIM DO MENU DE OPÇOES -->
+        </header>
+        <section class="container">
+            <h6 class="title">Agendar Adestramento</h6>
+            
+            <form>
+                <div class="form-row">
+                  <div class="form-group col-md-6">
+                    <label for="exampleFormControlInput1">Nome do Cão:</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1">
+                  </div>
+              
+                 <div class="form-group col-md-6">
+                    <label for="exampleFormControlInput1">Horário:</label>
+                   <input type="time" class="form-control" title="Insira a hora inicial para agendar">
+                  </div>
+                </div> 
+                
+                <div class="form-row">
+             <div class="form-group col-md-6">
+                <label for="exampleFormControlInput1">Data:</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+              </div>    
+                
+              <div class="form-group col-md-6">
+                <div class="form-check">
+                    
+                  <input class="form-check-input" type="checkbox" id="gridCheck">
+                  <label class="form-check-label" for="gridCheck">
+                    Check me out
+                  </label>
+                </div>
+              </div>
+                </div>   
+            <div class="form-group">
+                <label for="exampleFormControlInput1">Nível de Ansiedade:</label>
+               Baixo <input type="range" name="trug" id="crug" min="0" maz="10" step="2" title="Selecione o nível de ansiedade do cão para agendar" /> Alto
+              </div>    
+             
+              <div class="form-group">
+                <label for="exampleFormControlTextarea1">Motivo do Adestramento:</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+            </form>
+        </section>    
+        <footer>
+             <div class="row" style="margin-right: 0px;margin-left: 0px;padding-top:10px;">
+               
+                <div class="col-4">
+                    <p class="titulo-footer">Atendimento</p>
+                    <div id="atendimento" class="opcoes">
+                    <p><a href="">Troca e devoluções</a></p>
+                    <p><a href="">Política de Entrega</a></p>
+                    <p><a href="">Dúvidas Frequentes</a></p>
+                    </div>    
+                </div>
+                <div class="col-4">
+                    <p class="titulo-footer"> Formas de Pagamento</p>
+                    <div class="opcoes">
+                    <p><img alt="Bandeiras para cartão" src="_icones/bandeiras_cartoes.png"></p>
+                    </div>
+                </div>                
+                  <div class="col-4">
+                        <p class="titulo-footer">Redes Sociais</p>
+                     <div class="opcoes">
+                         <div class="row justify-content-center"> 
+                             <div class="col-md-2">
+                                <a id="facebook" href="http://facebook.com/fofuxoPetshop"><i class="fab fa-facebook-square fa-3x"></i></a>
+                             </div>
+                            <div class="col-md-2">
+                                <a id="twitter" href="http://twitter.com/fofuxoPetShop"><i class="fab fa-twitter fa-3x"></i></a>
+                            </div>                     
+                         </div>
+                    </div>    
+                </div>
+                    <div class="col-12" style="text-align:center;color:white">
+                      <p class="rodape">&copy; Copyright PetShop Fofuxo</p>
+                    </div>    
+              </div>   
+        </footer>
+
+         <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script>$('.carousel').carousel({
+  interval: 2000
+})</script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    </body>
+</html>

@@ -1,0 +1,106 @@
+body{
+    margin: 0 auto;/*esse proprieddade centraliza o site todo. não esta em uso nesse projeto*/
+    width: 99.8%;
+}
+#cachorro{
+    background: url(../_img/bordadog.png) no-repeat;
+}
+#gato{background: url(../_img/bordacat.png) no-repeat;}
+#passaro{background: url(../_img/bordacat.png) no-repeat;}
+#medicamento{background: url(../_img/bordadog.png) no-repeat;}
+
+.title {
+    font-size: 1.6rem;
+    border-bottom: 2px solid #ededed;
+    margin: 15px 0;
+    padding-bottom: 6px;
+    padding-left: 30px;
+    
+}
+
+.card-img-top {
+    max-width: 100%;
+    height: 50%;
+}
+
+.card {
+    height: 340px;
+}
+
+.card:hover {
+    border-color: #ffcc33;
+    border-style:dashed;
+    border-width: thin;        	 
+}
+
+.card-title {
+    min-height:38px;
+}
+.area-destaque {
+    margin: 1%
+}
+
+.text-valor {
+    font-size: 1.2rem;
+    color: #FFC107;
+    font-family: sans-serif;
+}
+
+/* Inicio da area do rodape*/
+
+footer{
+    background-image: url(../_icones/fundo-rodape.png);  
+}
+
+.titulo-footer{
+    font-size: 20px;
+    color: yellow;
+    text-align: center;
+    margin-bottom: 2px;
+}
+
+footer a{
+    color: #4267B2;
+}
+
+#facebook{
+    color: #3B579D;
+}
+
+#twitter{
+    color: #1DA1F2;
+}
+.opcoes p{
+    text-align: center;
+}
+
+.opcoes{
+    text-align: center;
+}
+#atendimento a{
+    color: aliceblue;
+}
+
+#atendimento p{
+    margin-bottom: 0;
+}
+
+
+.social a[href*="facebook.com"] {
+background-image: url(../_icones/facebook.png);
+}
+
+.social a[href*="twitter.com"] {
+background-image: url(../_icones/twitter.png);
+}
+/*Fim da area do rodape*/
+.navbar-brand {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    width: 205px;
+}
+
+.rodape {
+    margin-bottom: 5px;
+    color: azure;
+}
