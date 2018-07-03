@@ -104,3 +104,44 @@ background-image: url(../_icones/twitter.png);
     margin-bottom: 5px;
     color: azure;
 }
+
+.btnTopo{
+	display:block;
+	margin-left:1250px;
+}
+#adestramento {
+    
+    background: url(../_img/dog2.jpg) no-repeat;
+    padding-bottom: 1%;
+   
+}
+
+#banho {
+        background: url(../_img/banho.png) no-repeat;
+
+}
+
+#campobusca {
+    border-top-right-radius: 1%; 
+    border-bottom-right-radius: 1%
+}
+
+#btn-buscar {
+   
+    border-top-left-radius: 1%; 
+    border-bottom-left-radius: 1%
+
+}
+
+.margem-produto {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.breadcrumb {
+    background-color: transparent;
+}
+
+.breadcrumb-item+.breadcrumb-item::before{
+    content: ">";
+}
